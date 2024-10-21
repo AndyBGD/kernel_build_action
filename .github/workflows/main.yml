@@ -25,7 +25,7 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/AndyBGD/android_kernel_samsung_exynos2100/tree/GXDA
+          kernel-url: https://github.com/AndyBGD/android_kernel_samsung_exynos2100
           kernel-dir: GXDA
           kernel-branch: GXDA
           config: hari_t2s_defconfig
