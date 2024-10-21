@@ -40,4 +40,5 @@ jobs:
           anykernel3: true
           kvm: true
           other-clang-url: https://github.com/AOSP-10/prebuilts_clang_host_linux-x86_clang-r383902
-          other-clang-branch: clang-r383902
+          other-clang-branch: 10
+  
