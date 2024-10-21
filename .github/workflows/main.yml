@@ -31,7 +31,7 @@ jobs:
           config: hari_t2s_defconfig
           arch: arm64
           aosp-gcc: true
-          aosp-clang: true
+          aosp-clang: false
           ksu: false
           ksu-version: false
           android-version: 14
@@ -39,3 +39,4 @@ jobs:
           disable-lto: true
           anykernel3: true
           kvm: true
+          other-clang-url: https://github.com/AOSP-10/prebuilts_clang_host_linux-x86_clang-r383902
